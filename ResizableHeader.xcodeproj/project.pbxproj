@@ -14,6 +14,7 @@
 		7B74209E29B7C10A00591D37 /* ResizableHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B74209D29B7C10A00591D37 /* ResizableHeaderTests.swift */; };
 		7B7420A829B7C10B00591D37 /* ResizableHeaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7420A729B7C10B00591D37 /* ResizableHeaderUITests.swift */; };
 		7B7420AA29B7C10B00591D37 /* ResizableHeaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7420A929B7C10B00591D37 /* ResizableHeaderUITestsLaunchTests.swift */; };
+		7B7420B829B7C6FF00591D37 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7420B729B7C6FF00591D37 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7B7420A329B7C10B00591D37 /* ResizableHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResizableHeaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7420A729B7C10B00591D37 /* ResizableHeaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableHeaderUITests.swift; sourceTree = "<group>"; };
 		7B7420A929B7C10B00591D37 /* ResizableHeaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableHeaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B7420B729B7C6FF00591D37 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		7B74208B29B7C10700591D37 /* ResizableHeader */ = {
 			isa = PBXGroup;
 			children = (
+				7B7420B629B7C6E500591D37 /* View */,
 				7B74208C29B7C10700591D37 /* ResizableHeaderApp.swift */,
 				7B74208E29B7C10700591D37 /* ContentView.swift */,
 				7B74209029B7C10A00591D37 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				7B7420A929B7C10B00591D37 /* ResizableHeaderUITestsLaunchTests.swift */,
 			);
 			path = ResizableHeaderUITests;
+			sourceTree = "<group>";
+		};
+		7B7420B629B7C6E500591D37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B7420B729B7C6FF00591D37 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B74208F29B7C10700591D37 /* ContentView.swift in Sources */,
+				7B7420B829B7C6FF00591D37 /* Home.swift in Sources */,
 				7B74208D29B7C10700591D37 /* ResizableHeaderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
